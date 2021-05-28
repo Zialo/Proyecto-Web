@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valorant</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <!-- Etiqueta para el menu superior-->
+
+    <div class="signupWrapper">
+      <div class="accountIntro">
+        <h1>INICIAR SESIÓN</h1>
+      </div>
+      <div class="formBlock">
+        <form action="index.php?accion=login&id=2" method="post">
+          <div class="nick">
+            <label for="nick">Nick</label>
+            <input type="text" id="nick" name="Nick" placeholder="Nick" />
+          </div>
+          <div class="password">
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="Password" placeholder="Password" />
+          </div>
+          <div class="submit">
+            <input type="submit" value="Enviar" onclick="index.php?accion=login&id=2" />
+            <a href="index.php?accion=registrar&id=1">Registrar</a> 
+          </div>
+          
+        </form>
+      </div>
+    </div>
+    <footer>
+      <p>
+        &copy; 2020 Riot games, inc, riot games, <span>valorant</span>, and any
+        associated logos are trademarks, service marks, and/or registered
+        trademarks of riot games, inc.
+      </p>
+    </footer>
+  </body>
+</html>

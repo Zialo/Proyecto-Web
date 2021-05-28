@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valorant</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <!-- Etiqueta para el menu superior-->
+
+
+    <div class="signupWrapper">
+      <div class="accountIntro">
+        <h1>REGÍSTRATE</h1>
+      </div>
+      <div class="formBlock">
+        <form action="index.php?accion=registrar&id=2" method="post">
+          <div class="nombreIntro">
+            <h1>¿Cómo te llamas?</h1>
+          </div>
+
+          <div class="nombre">
+            <label for="nombre"></label>
+            <input type="text" id="nombre" name="Nombre" placeholder="Nombre" />
+          </div>
+
+          <div class="ape1Intro">
+            <h1>¿Cómo te apellidas?</h1>
+          </div>
+
+          <div class="ape1">
+            <label for="ape1"></label>
+            <input type="text" id="ape1" name="Ape1" placeholder="Primer apellido" />
+          </div><br>
+
+          <div class="ape2">
+            <label for="ape2"></label>
+            <input type="text" id="ape2" name="Ape2" placeholder="Segundo apellido" />
+          </div>
+
+          <div class="nickIntro">
+            <h1>Escoge tu nick</h1>
+            <p>Recuerda no introducir nombres ofensivos.</p>
+          </div>
+
+          <div class="nick">
+            <label for="nick"></label>
+            <input type="text" id="nick" name="Nick" placeholder="Nick" />
+          </div>
+
+          <div class="passwordIntro">
+            <h1>Escoge tu password</h1>
+            <p>Piensa en una compleja.</p>
+          </div>
+
+          <div class="password">
+            <label for="password"></label>
+            <input type="password" id="password" name="Password" placeholder="Password" />
+          </div>
+
+          <div class="submit">
+            <input type="submit" value="Enviar" onclick="index.php?accion=registrar&id=2" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <p>
+        &copy; 2020 Riot games, inc, riot games, <span>valorant</span>, and any
+        associated logos are trademarks, service marks, and/or registered
+        trademarks of riot games, inc.
+      </p>
+    </footer>
+  </body>
+</html>
