@@ -1,0 +1,851 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ece7e1;
+  cursor: default;
+}
+
+/*-----------------------  Navigation  -----------------------*/
+
+nav {
+  background-color: #111111;
+  padding: 15px;
+  border-bottom: 2px solid #1a1a1a;
+}
+
+nav ul {
+  margin: 0 auto;
+  padding: 5px 0px;
+  display: flex;
+  list-style: none;
+}
+
+nav a {
+  padding: 20px;
+  text-transform: uppercase;
+  color: #ece7e1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #ff4655;
+}
+
+/*-----------------------  Footer  -----------------------*/
+
+footer {
+  background-color: #111111;
+  color: #7c7e82;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  padding: 0 37% 0 37%;
+  font-size: 80%;
+}
+
+footer span {
+  text-transform: uppercase;
+}
+
+/*-----------------------  IndexHeader  -----------------------*/
+
+.indexHeader {
+  color: #ece7e1;
+  height: 1000px;
+  padding: 1px;
+  background-image: linear-gradient(rgba(0.5, 0.5, 0.5, 0.5), rgba(0.5, 0.5, 0.5, 0.5)), url(../images/intro.jpg);
+  background-position: 50% 85%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.indexHeader p {
+  font-weight: bold;
+}
+
+.indexHeader h1 {
+  font-size: 800%;
+  margin: 0 0 30px 0;
+  -webkit-text-stroke: 2px black;
+}
+
+.indexHeader a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 95%;
+  text-transform: uppercase;
+  color: #ece7e1;
+  background-color: #ff4654;
+  padding: 15px 60px;
+  border-radius: 5px;
+}
+
+.indexHeader a:hover {
+  background-color: #0f1923;
+  transition: 0.5s;
+}
+
+/*-----------------------  Index-valorantIntro  -----------------------*/
+
+.valorantIntro {
+  width: 100%;
+  margin: 80px 0 80px 0px;
+}
+
+.valorantIntro h1 {
+  color: #0f1922;
+  text-transform: uppercase;
+  font-size: 400%;
+}
+
+.introColumn {
+  display: flex;
+  flex-flow: row;
+}
+
+#intro {
+  margin-left: 450px;
+}
+
+.introLeft {
+  width: 25%;
+  margin-left: 530px;
+  padding: 10px;
+}
+
+.introRight {
+  width: 50%;
+  text-align: center;
+}
+
+.introRight {
+  width: 50%;
+  text-align: center;
+}
+
+p {
+  line-height: 150%;
+}
+
+.introLeft h2 {
+  color: #383e3a;
+  text-transform: uppercase;
+}
+
+.introLeft p {
+  color: #7f8286;
+  padding-bottom: 30px;
+  border-bottom: solid 1px black;
+}
+
+.introLeft span {
+  text-transform: uppercase;
+}
+
+.introRight img{
+  height: 400px;
+  width: 700px;
+}
+
+
+/*-----------------------  Index-Personajes  -----------------------*/
+
+.agentsMainColumn {
+  background-image:  linear-gradient(rgba(0.5, 0.5, 0.5, 0.5), rgba(0.5, 0.5, 0.5, 0.5)), url(../images/personajes_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.agentsIntro {
+  width: 100%;
+  background-color: #ff4654;
+  margin-bottom: -80px;
+}
+
+.agentsIntro2 {
+  width: 100%;
+  background-color: #ffffff;
+  margin-bottom: -80px;
+}
+
+.agentsIntro2 > iframe {
+  padding: 50px;
+  width: 95%;
+}
+
+.agentsColumn {
+  display: flex;
+  flex-flow: row-reverse;
+  align-items: center;
+  padding: 20px;
+}
+
+.agentsLeft {
+  width: 35%;
+}
+
+.agentsRight {
+  width: 45%;
+}
+
+.agentsRight h1 {
+  font-size: 400%;
+  margin: 0 0 30px 0;
+  color: #ece7e1;
+  text-transform: uppercase;
+}
+
+.agentsRight h2 {
+  color: #ece7e1;
+  text-transform: uppercase;
+}
+
+.agentsRight p {
+  color: #ece7e1;
+}
+
+.agentsLeft img {
+  width: auto;
+  height: 600px;
+}
+
+.agentsSub {
+  width: 40%;
+  margin-bottom: 60px;
+}
+
+.agentsRight a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 95%;
+  text-transform: uppercase;
+  color: #0f1923;
+  background-color: #ece7e1;
+  padding: 15px 60px;
+  border-radius: 5px;
+}
+
+.agentsRight a:hover {
+  background-color: #0f1923;
+  color: #ece7e1;
+  transition: 0.5s;
+}
+
+.imagenPersonaje > img{
+  width: 100%;
+  height: auto;
+}
+
+/*-----------------------  Index-Mapas  -----------------------*/
+
+.mapasIntro {
+  height: 830px;
+  width: 100%;
+  background-image: url(../images/mapsintro.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+
+.mapasIntro h1 {
+  color: #0f1922;
+  text-transform: uppercase;
+  font-size: 400%;
+}
+
+.mapasColumn {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  padding: 20px;
+  margin-left: 200px;
+  margin-bottom: 30px;
+}
+
+.mapasLeft {
+  width: 45%;
+  margin-top: 120px;
+}
+
+.mapasLeft h2 {
+  color: #383e3a;
+  text-transform: uppercase;
+}
+
+.mapasLeft p {
+  color: #7c7e86;
+  padding-bottom: 30px;
+}
+
+.mapasLeft a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 95%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #ff4655;
+  padding: 15px 60px;
+  border-radius: 5px;
+}
+
+.mapasLeft a:hover {
+  background-color: #0f1923;
+  color: #ece7e1;
+  transition: 0.5s;
+}
+
+.mapasSub {
+  width: 40%;
+  margin-bottom: 60px;
+}
+
+/*-----------------------  Index-Armas  -----------------------*/
+
+.armasIntro {
+  width: 100%;
+  background-color: #ff4654;
+  margin-bottom: -80px;
+}
+
+.armasColumn {
+  display: flex;
+  flex-flow: row-reverse;
+  align-items: center;
+  padding: 20px;
+}
+
+.armasLeft {
+  width: 35%;
+}
+
+.armasRight {
+  width: 45%;
+}
+
+.armasRight h1 {
+  font-size: 400%;
+  margin: 0 0 30px 0;
+  color: #ece7e1;
+  text-transform: uppercase;
+}
+
+.armasRight h2 {
+  color: #ece7e1;
+  text-transform: uppercase;
+}
+
+.armasRight p {
+  color: #ece7e1;
+}
+
+.armasLeft img {
+  width: 300px;
+  height: 600px;
+}
+
+.armasSub {
+  width: 40%;
+  margin-bottom: 60px;
+}
+
+.armasRight a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 95%;
+  text-transform: uppercase;
+  color: #0f1923;
+  background-color: #ece7e1;
+  padding: 15px 60px;
+  border-radius: 5px;
+}
+
+.armasRight a:hover {
+  background-color: #0f1923;
+  color: #ece7e1;
+  transition: 0.5s;
+}
+
+/*-----------------------  Agents-page  -----------------------*/
+
+.agentsImages {
+  padding: 30px 50px 50px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.agentsImages a {
+  box-sizing: border-box;
+  width: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.agentsMainText {
+  margin-left: 70px;
+  width: 20%;
+  border-bottom: 1px solid black;
+  margin-top: 70px;
+}
+
+.agentsMainText h2 {
+  color: #383e3a;
+}
+
+.agentsMainText p {
+  color: #7c7e86;
+}
+
+.zoom {
+  transition: transform .2s; 
+}
+
+.zoom:hover  {
+  transform: scale(1.5); 
+}
+
+
+/*-----------------------  Specs-page  -----------------------*/
+
+.specsIntro {
+  background-image: url(../images/viperbg.jpg);
+  background-position: 50% 10%;
+  background-repeat: no-repeat;
+  color: #ece7e1;
+  padding: 50px;
+  height: 450px;
+}
+
+.specsIntro h1 {
+  margin-top: 160px;
+  margin-left: 370px;
+  font-size: 400%;
+  text-transform: uppercase;
+  border-top: solid 1px #ece7e1;
+  width: 20%;
+  padding-top: 40px;
+}
+
+.hardwareIntro {
+  margin-left: 430px;
+  width: 60%;
+}
+
+.hardwareBlock h2 {
+  color: #0f1923;
+  text-transform: uppercase;
+  font-size: 200%;
+  margin-top: 80px;
+}
+
+.hardwareBlock2 p {
+  background-color: #0f1923;
+  color: #ece7e1;
+  margin-left: 1px;
+  padding: 38px;
+  width: 20%;
+  text-align: center;
+}
+
+.hardwareBlock2 img {
+  margin-top: 4px;
+}
+
+.hardwareBlock2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.hardwareSub1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hardwareSub2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#hardwareSub2 {
+  color: #0f1923;
+  font-weight: bold;
+}
+
+.hardwareSub3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#hardwareSub3 {
+  color: #0f1923;
+  font-weight: bold;
+}
+
+.hardwareSub1 p {
+  background-color: #8c978f;
+  color: #ece7e1;
+  padding: 38px;
+  width: 20%;
+  text-align: center;
+  margin-left: 1px;
+}
+
+.miniBlock1 {
+  margin-top: 4px;
+}
+
+.hardwareSub2 p {
+  background-color: #8c978f;
+  color: #ece7e1;
+  padding: 38px;
+  width: 20%;
+  text-align: center;
+  margin-left: 1px;
+}
+
+.hardwareSub3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hardwareSub3 p {
+  background-color: #8c978f;
+  color: #ece7e1;
+  padding: 38px;
+  width: 20%;
+  text-align: center;
+  margin-left: 1px;
+}
+
+.hardwareSub2 {
+  margin-top: -31px;
+}
+
+.hardwareSub3 {
+  margin-top: -31px;
+  margin-bottom: 100px;
+}
+
+/*-----------------------  Signup-page  -----------------------*/
+
+.signupWrapper {
+  background-image: url(../images/valorantbg.jpg);
+  background-position: center top;
+  padding-bottom: 80px;
+}
+
+.accountIntro {
+  color: #ece7e1;
+  font-size: 200%;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-left: 100px;
+  width: 30%;
+}
+
+.formBlock {
+  margin-left: 80px;
+  background-color: #ece7e1;
+  width: 50%;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.nombreIntro, .ape1Intro, .ape2Intro {
+  text-transform: uppercase;
+  color: #1a1a1a;
+}
+
+.nombre input, .ape1 input, .ape2 input, .nick input {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #ededed;
+}
+
+.nickIntro h1, .nombreIntro h1, .ape1Intro h1, .ape2Intro h1 {
+  text-transform: uppercase;
+  padding: 10px;
+  color: #1a1a1a;
+}
+
+.nickIntro p {
+  color: #1a1a1a;
+  font-size: 120%;
+  margin-left: 10px;
+}
+
+.nick input {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #ededed;
+}
+
+.nick {
+  margin-left: 10px;
+  margin-bottom: 50px;
+}
+
+.passwordIntro h1 {
+  text-transform: uppercase;
+  padding: 10px;
+  color: #1a1a1a;
+}
+
+.passwordIntro p {
+  color: #1a1a1a;
+  font-size: 120%;
+  margin-left: 10px;
+}
+
+.password input {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #ededed;
+}
+
+.password {
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.submit {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.submit input {
+  background-color: #ff4655;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.submit input:hover {
+  background-color: #0f1923;
+  transition: 0.5s;
+}
+
+/*-----------------------  Weapons-page  -----------------------*/
+
+.weaponImages {
+  padding: 30px 50px 50px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.weaponsMainText {
+  margin-left: 70px;
+  width: 20%;
+  border-bottom: 1px solid black;
+  margin-top: 70px;
+}
+
+.weaponsMainText h2 {
+  color: #383e3a;
+}
+
+
+/*-----------------------  Maps-page  -----------------------*/
+
+.mapImages img {
+  display: flex;
+  flex-wrap: wrap;
+  height: 522px;
+  width: 930px;
+}
+
+.mapImages {
+  padding: 30px 50px 50px 50px;
+  border: #0f1922;
+}
+
+.mapsMainText {
+  margin-left: 70px;
+  width: 20%;
+  border-bottom: 1px solid black;
+  margin-top: 70px;
+}
+
+.mapsMainText h2 {
+  color: #383e3a;
+}
+
+
+/*-----------------------  Listas como dios manda en css  -----------------------*/
+
+.mapsMainColumn  {
+  background-color: #FF4655 ;
+}
+
+.listRight h2  {
+  color: black;
+  text-transform: uppercase;
+}
+
+.listLeft {
+  width: 70%;
+  text-align: center;
+}
+
+.listRight {
+  width: 25%;
+  margin-left: 0px;
+  margin-top: 10%;
+  padding: 2%;
+  background-color: #ededed;
+}
+
+.listRight p {
+  color: black;
+  padding-bottom: 30px;
+  border-bottom: solid 1px black;
+  font-size: 150%;
+}
+
+.listRight span {
+  text-transform: uppercase;
+}
+
+.listLeft img {
+  height: 75%;
+  width: 75%;
+}
+
+.listTitle {
+  color: #0f1922;
+  text-transform: uppercase;
+  font-size: 300%;
+  margin-left: 5%;
+  border-bottom: solid 3px black;
+}
+
+ /*-----------------------  Listas como dios manda en css  -----------------------*/
+
+ .valorantIntro2 {
+  width: 100%;
+  margin: 80px 0 80px 0px;
+}
+
+.valorantIntro2 h1 {
+  color: #0f1922;
+  text-transform: uppercase;
+  font-size: 400%;
+}
+
+.mapsMainColumn2  {
+  background-color: #FF4655 ;
+  margin-top: 0;
+}
+
+.listRight2 h2  {
+  color: black;
+  text-transform: uppercase;
+}
+
+.listLeft2 {
+  width: 70%;
+  text-align: center;
+}
+
+.listRight2 {
+  width: 25%;
+  padding: 2%;
+  background-color: #ededed;
+}
+
+.listRight2 p {
+  color: black;
+  padding-bottom: 30px;
+  border-bottom: solid 1px black;
+  font-size: 150%;
+}
+
+.listRight2 span {
+  text-transform: uppercase;
+}
+
+.listLeft2 img {
+  width: 40%;
+}
+
+.listTitle2 {
+  color: #0f1922;
+  text-transform: uppercase;
+  font-size: 300%;
+  margin-left: 5%;
+  border-bottom: solid 3px black;
+}
+
+.comentario {
+	padding: 1%;
+}
+
+/*-----------------------  Forum-page  -----------------------*/
+
+.commentaries {
+    background-color: #FF4655;
+}
+
+.commentariesMainText {
+  margin-left: 70px;
+  width: 20%;
+  border-bottom: 1px solid black;
+  margin-top: 70px;
+}
+
+.commentariesMainText {
+  margin-left: 70px;
+  width: 20%;
+  border-bottom: 1px solid black;
+  margin-top: 70px;
+}
+
+.commentariesMainText h2 {
+  color: #383e3a;
+}
+
+.commentaryColumn h2 {
+  padding: 5px 5px 5px 5px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.commentaryColumn p {
+  border-bottom: 1px solid black;
+  padding: 5px 5px 5px 5px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.commentaryColumn {
+    background-color: #ece7e1;
+    margin: 20px 50px 20px 50px;
+    padding: 30px 30px 30px 30px;
+}
+
+.valorantIntro3 {
+    margin: 0 5px 0 5px;
+}
