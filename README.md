@@ -1,2 +1,2 @@
 # Proyecto-Web
-@ Hodei Zia y Alvaro Sola
+Hodei Zia y Alvaro Sola
